@@ -1,6 +1,10 @@
-.form__input--active{
-    color: blue;
+*{
+    padding: 0px;
+    margin: 0px;
 }
-.Formulario1__p-h2{
-    color: red;
+.contact-form{
+    font-size: 40px;
+    background-color: black;
+    width: 50vw;
+    height: 50vh;
 }
