@@ -1,0 +1,8 @@
+tipos de selectores
+-UNIVERSAL -  *
+-de tipo - h1
+-clases - .nombreClase
+-ID - #id
+-por atributo -[atributo="a"]
+-descendiente - h2 p/o
+-pseudo clases - .claseH2 b:hover
