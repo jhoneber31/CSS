@@ -3,24 +3,45 @@
     font-weight: 100;
     font-size: 40px;
 }
-.caja1{
-    width: 200px;
-    height: 200px;
-    background: red;
-    margin: auto;
-    outline: 10px solid blue;
-    box-sizing: content-box;
-}
-
-.caja2{
-    width: 200px;
-    height: 200px;
+div{
+    
+    display: block;
     background: green;
-    margin: auto;
+    position: absolute;    
+}
+div div{
+    height: 75px;
+    width: 105px;
+    background: yellow;
 }
 
-h2{
-    color: yellowgreen;
-    display: inline-block;
-    margin: 50px;
+.contenedor{
+    
+    position: relative;
+    margin: 50px auto;
+    border: 4px solid red;
+    height: 450px;
+    width: 450px;
+
+}
+.caja1{
+    
+}
+.caja2{
+    right: 0;
+}
+.caja3{
+    
+    bottom: 0;
+}
+.caja4{
+    right: 0;
+    bottom: 0;
+}
+.caja5{
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
 }
